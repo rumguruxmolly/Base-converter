@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>windows</class>
+ <widget class="QMainWindow" name="windows">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>0</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(162, 148, 249);</string>
+    </property>
+    <property name="text">
+     <string>Convertisseur</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>310</y>
+      <width>701</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+border-color: rgb(184, 255, 201);
+color: rgb(162, 148, 249);</string>
+    </property>
+    <property name="title">
+     <string>Output</string>
+    </property>
+    <widget class="QPushButton" name="Convertir_2">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>190</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 81 14pt &quot;Rockwell Extra Bold&quot;;
+background-color: rgb(162, 148, 249);
+color: rgb(245, 239, 255);</string>
+     </property>
+     <property name="text">
+      <string>Convertir</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="binaryRES">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>binaire</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="hexRES">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>160</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Hexadecimal</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="decRES">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>190</y>
+       <width>111</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Decimal</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="octRES">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>111</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Octal</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>101</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(162, 148, 249);</string>
+     </property>
+     <property name="text">
+      <string>resultat :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="resultat">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>40</y>
+       <width>471</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(162, 148, 249);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>701</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+border-color: rgb(184, 255, 201);
+color: rgb(162, 148, 249);</string>
+    </property>
+    <property name="title">
+     <string>INPUT</string>
+    </property>
+    <widget class="QPushButton" name="Verifier_2">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>190</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 81 14pt &quot;Rockwell Extra Bold&quot;;
+background-color: rgb(162, 148, 249);
+color: rgb(245, 239, 255);</string>
+     </property>
+     <property name="text">
+      <string>verifier</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="binary">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>binaire</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="hexa">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>160</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Hexadecimal</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="dec">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>190</y>
+       <width>111</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Decimal</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="oct">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>111</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Octal</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="input1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="msg">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>50</y>
+       <width>361</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(162, 148, 249);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
